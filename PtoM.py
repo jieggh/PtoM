@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 PtoM - PDF to Markdown Converter
-作者: 小胖
+作者: BOOM
 功能：
 1. 将PDF文件转换为Markdown格式
 2. 自动提取PDF中的图片
