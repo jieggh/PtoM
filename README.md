@@ -27,3 +27,32 @@ pip install pdfplumber
 ```
 
 > **注意**：如果未安装 `PyMuPDF`，图片提取功能可能受限。建议安装以获得更好的图片提取效果。
+>
+> @echo off
+chcp 65001 >nul
+echo ========================================
+echo PDF转Markdown并优化脚本 - 使用示例
+echo ========================================
+echo.
+
+REM 示例1: 转换PDF并自动生成Markdown文件
+echo 示例1: 转换PDF并自动生成Markdown文件
+echo python pdf_to_markdown_optimizer.py "Test.pdf"
+echo.
+echo 这将生成: Test.md
+echo.
+
+REM 示例2: 转换PDF并指定输出文件名
+echo 示例2: 转换PDF并指定输出文件名
+echo python pdf_to_markdown_optimizer.py "document.pdf" "output.md"
+echo.
+
+echo ========================================
+echo 使用方法:
+echo   python pdf_to_markdown_optimizer.py ^<PDF文件^> [输出文件]
+echo.
+echo 如果不指定输出文件，将自动生成（原文件名.md）
+echo ========================================
+echo.
+pause
+
